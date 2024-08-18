@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My_Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="icon" href="favicon.png" type="image/png" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header class="header">
+        <a href="#hero" class="logo">
+          <img
+            src="image/logo.png"
+            alt="profile-image "
+          />
+          <span>Suman</span>
+        </a>
+        <input type="checkbox" id="check" />
+        <label for="check" class="icons">
+          <i class="fa-solid fa-bars" id="menu-icon"></i>
+          <i class="fa-solid fa-xmark" id="close-icon"></i>
+        </label>
+        <i class="fa-regular fa-sun" id="toggle"></i>
+        <nav class="navbar">
+          <a href="#hero" style="--i: 0">Home</a>
+          <a href="#about" style="--i: 1">About</a>
+          <a href="#skills" style="--i: 2">Skills</a>
+          <a href="#service" style="--i: 3">Services</a>
+          <a href="#contact" style="--i: 4">Contact</a>
+    </header>
+    <!-- Hero-section -->
+    <div class="box"></div>
+    <section id="hero" class="hero-section">
+          <div class="intro">
+            <div class="social-icon">
+              <a href="https://www.linkedin.com/in/suman-suman-3975431ab" target="_blank">
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+              <a href="https://github.com/SumanCoderr" target="_blank">
+                <i class="fa-brands fa-github"></i>
+              </a>
+              <a href="https://www.instagram.com/olive._.98?igsh=cXhhMmhiN3JiNzJp" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+              <a href="https://www.facebook.com/raavi.1297" target="_blank">
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+            </div>
+            <div>
+              <h1>Hi! I'm Suman a <span>Web Developer</span></h1>
+              <p>I am a good programmer. I am hard working.</p>
+              <button>Resume</button>
+            </div>
+          </div>
+          <div class="profile-pic">
+              <img src="/image/profile-image.png" alt="profile-image">
+          </div>
+    </section>
+    <!-- About-section -->
+    <section id="about" class="about">
+        <div class="about-image">
+          <img src="image/profile-image.png" alt="profile-image">
+        </div>
+        <div class="about-text">
+          <h3>About Me</h3>
+          <p>I am a web developer. I have 6 months of internship experience in front-end development. I'm passinate to my work. I worked at Vigilante Digital Education. I always try to give my 100% to my work. I have a Bachelor's degree in Computer Science and Engineering. Also I  have done my diploma in Computer Science and Engineering. Currently I'm pursuing Full Stack development course from Internshala. </p>
+          <button>Read more</button>
+        </div>
+    </section>
+    <!-- Skill-section -->
+    <section id="skills">
+      <span><h3>Skills</h3> </span>
+      <div class="progress-bar">
+          <div class="circle"   style="--percentage: 80; --color: #2836f6;">
+              <h2 class="number">80<span>%</span></h2>
+              <h4>Html</h4>
+          </div>
+          <div class="circle"  style="--percentage: 70; --color: #eb2513;">
+              <h2 class="number">70<span>%</span></h2>
+              <h4>Css</h4>
+          </div>
+          <div class="circle"  style="--percentage: 70; --color: #04fc43;">
+              <h2 class="number">70<span>%</span></h2>
+              <h4>Javascript</h4>
+          </div>
+      </div>
+    </section>
+    <!-- Certificate-section -->
+    <section class="certificate-section">
+      <h3>Certificates</h3>
+      <section class="certificate">
+        <div class="container">
+        <div class="cards" style="--clr:red">
+          <div class="imgBx">
+            <img src="image/certificate1.jpg" alt="certificate">
+          </div>
+          <div class="content">
+            <h2>Basic Computer Course</h2>
+            <p>In this course I learnt basics of computer. Issued by Tomar Institute</p>
+            <a href="image/certificate1.jpg" target="_blank"><button>Certificate</button></a>
+          </div>
+        </div>
+        <div class="cards" style="--clr:green">
+          <div class="imgBx">
+            <img src="image/certificate2.jpg" alt="certificate">
+          </div>
+          <div class="content">
+            <h2>Soft Skill Course</h2>
+            <p>In this course I learnt soft skills in my collage. Issued by Mahindra Pride Classroom</p>
+            <a href="image/certificate2.jpg" target="_blank"><button>Certificate</button></a>
+          </div>
+        </div>
+        <div class="cards" style="--clr:blue">
+          <div class="imgBx">
+            <img src="image/certificate3.jpg" alt="certificate">
+          </div>
+          <div class="content">
+            <h2>Employability Traning</h2>
+            <p>In this I trained by Centre of Equity and Inclusion. Issued by Centre of Equity and Inclusion</p>
+            <a href="image/certificate3.jpg" target="_blank"><button>Certificate</button></a>
+
+          </div>
+        </div>
+        </div>
+      </section>
+    </section>
+    <!-- Project-section -->
+    <section id="service" class="project-section">
+      <h3>Projects</h3>
+      <section class="project-cards">
+        <div class="card">
+          <img class="card-img" src="https://c8.alamy.com/comp/PP84M2/netflix-netflix-background-design-PP84M2.jpg" alt="netflix">
+          <div class="card-body">
+            <h1 class="card-title">
+              Netflix Clone
+            </h1>
+            <p class="card-info">I try to build a netflix clone</p>
+            <a href="https://ntflix-clone-project.netlify.app" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img" src="https://lh7-us.googleusercontent.com/Mc1tglkswV7qYfgBya8ECPTyUoiNBDsB-YE-yoSpeCXMMnoAOxdLcC6a5YqNQji99jyU-JcoOqjSgCPFgNMumfwttG3GYy0h_d50Rz83JG33CbW9uvwDuBg0f1BydL_n8O32YAnv7aTXBwGeAZBOWhM" alt="food">
+          <div class="card-body">
+            <h1 class="card-title">
+              My Blog
+            </h1>
+            <p class="card-info">This is my personal blog</p>
+            <a href="https://my-first-food-blog.netlify.app" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img" src="https://classplusapp.com/growth/wp-content/uploads/2023/04/Blog-image-11april23_How-To-Sell-Notes-Online-All-You-Need-To-Know-scaled.jpg" alt="notes">
+          <div class="card-body">
+            <h1 class="card-title">
+              Online Notepad
+            </h1>
+            <p class="card-info">I created a online notepad where we can makes our notes.</p>
+            <a href="https://my-noteswebapp.netlify.app" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img" src="https://www.euroschoolindia.com/wp-content/uploads/2023/04/ways-to-eat-more-fruit.jpg" alt="fruits">
+          <div class="card-body">
+            <h1 class="card-title">
+              Fruit Shop
+            </h1>
+            <p  class="card-info">
+              I created a e-commerce fruit shop.
+            </p>
+            <a href="https://my-fruits-shop.netlify.app" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnoLcmZYd6Cit2TNbT1ebOcSZOK46vb1ZuCg&s" alt="slack">
+          <div class="card-body">
+            <h1 class="card-title">
+              Slack Clone
+            </h1>
+            <p class="card-info">I just try to build a Slack clone.</p>
+            <a href="https://slack-my.netlify.app" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img" src="https://img.freepik.com/free-vector/flat-design-colored-portfolio-template_23-2149215470.jpg" alt="portfolio">
+          <div class="card-body">
+            <h1 class="card-title">
+              Portfolio            
+            </h1>
+            <p class="card-info">
+              This is my personal portfolio.
+            </p>
+            <a href="https://my-project-my-portfolio.netlify.app"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+
+      </section>
+</section>
+<!-- Contact-section -->
+    <section id="contact" class="contact-section">
+      <h3>Contact</h3>
+      <p>
+        Need to get in touch with us? fill out the form below.
+      </p>
+      <form class="form">
+            <label for="name"> Full name :</label>
+            <input id="name" type="text" placeholder="Enter your name" />
+    
+            <label for="number"> Contact number :</label>
+            <input
+              id="number"
+              type="number"
+              placeholder="Enter your contact number"
+            />
+            <label for="email"> Email address: </label>
+            <input id="email" type="email" placeholder="Enter your email address" />
+            <label for="message"> Message :</label>
+            <textarea
+              id="message"
+              placeholder="Enter Your Message"
+              rows="5"
+            ></textarea>
+            <span>
+              <button>Submit</button>
+            </span>
+      </form>
+    </section>
+    <!-- Footer-section -->
+    <footer>
+      <p>Copyright &copy My_Portfolio, all rights reserved.</p> 
+      <p>|</p>
+      <a href="tel:+918588036609"><i class="fa-solid fa-phone"></i></a>
+      <a href="mailto:sumanofficial2225@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+    </footer>
+  </body>
+</html>
